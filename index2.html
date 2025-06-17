@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebiSnap Portfolio</title>
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Affordable and responsive websites built fast with HTML & CSS by WebiSnap.">
+  <meta name="keywords" content="web development, portfolio, HTML, CSS, responsive design, landing page, WebiSnap">
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Link to AOS (Animate On Scroll) CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <img src="webisnap logo 2.png" alt="WebiSnap Logo">
+      <span>WebiSnap</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <!-- Hamburger menu icon -->
+    <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+  </nav>
+
+  <!-- Hero section with brand name and tagline -->
+  <header class="hero" data-aos="fade-up">
+    <h1>Welcome to WebiSnap</h1>
+    <p>Snapping Ideas Into Reality </p>
+  </header>
+
+  <!-- About section introducing the developer -->
+  <section id="about" class="about" data-aos="fade-right">
+    <h2>About Me</h2>
+    <p>Hi! I'm Nittin, a web developer focused on creating fast, clean, and responsive websites using HTML & CSS. I help small businesses and individuals get online — in a snap.</p>
+  </section>
+
+  <!-- Services section listing offerings -->
+  <section id="services" class="services" data-aos="fade-left">
+    <h2>Services</h2>
+    <ul>
+      <li>💻 1-Page Website – ₹999</li>
+      <li>📱 Mobile Responsive Design</li>
+      <li>📍 Business Landing Pages</li>
+      <li>🛒 Product Showcase Pages</li>
+      <li>🔄 Website Redesign</li>
+    </ul>
+  </section>
+
+  <!-- Projects section with demo site links -->
+  <section id="projects" class="projects" data-aos="zoom-in">
+    <h2>Demo Projects</h2>
+    <div class="project-card">
+      <h3>Gym Website</h3>
+      <a href="#" target="_blank">View Live</a>
+    </div>
+    <div class="project-card">
+      <h3>Portfolio Site</h3>
+      <a href="#" target="_blank">View Live</a>
+    </div>
+  </section>
+
+  <!-- Testimonials section -->
+  <section id="testimonials" class="testimonials" data-aos="fade-up">
+    <h2>Testimonials</h2>
+    <div class="testimonial">
+      <p>"WebiSnap gave my business a clean and fast website in just 3 days! Highly recommended."</p>
+      <strong>– Rahul Sharma, Gym Owner</strong>
+    </div>
+    <div class="testimonial">
+      <p>"As a freelancer, I needed a personal website. Nittin made it smooth, beautiful, and mobile-friendly!"</p>
+      <strong>– Sneha Verma, Graphic Designer</strong>
+    </div>
+  </section>
+
+  <!-- Contact section with WhatsApp and email links -->
+  <section id="contact" class="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <p>📞 WhatsApp: <a href="https://wa.me/917509656437" class="whatsapp-btn">Chat Now</a></p>
+    <p>📧 Email: webisnap@gmail.com</p>
+  </section>
+
+  <!-- Footer with social links -->
+  <footer>
+    <p>&copy; 2025 WebiSnap. All rights reserved.</p>
+    <p>
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a> |
+      <a href="https://github.com/" target="_blank">GitHub</a>
+    </p>
+  </footer>
+
+  <!-- AOS JavaScript initialization -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    // Toggle navbar menu for mobile
+    function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.classList.toggle('active');
+    }
+  </script>
+  <!-- Preloader -->
+<div id="preloader"></div>
+<script>
+  // Remove preloader when page fully loads
+  window.addEventListener('load', () => {
+    document.getElementById('preloader').style.display = 'none';
+  });
+</script>
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<section data-aos="fade-up">...</section>
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<!-- Preloader remove script -->
+<script>
+  window.addEventListener('load', () => {
+    document.getElementById('preloader').style.display = 'none';
+  });
+</script>
+
+
+</body>
+</html>
